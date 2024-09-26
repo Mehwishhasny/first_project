@@ -4,7 +4,7 @@ import Link from "next/link";
 export const Footer = () => {
     return (
         <footer className="bg-gradient-to-l from-black to-gray-300 text-black p-6 text-center font-bold">
-              <div className="flex justify-center space-x-8 mt-2">
+              <div className="flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-6 mt-2">
                 
                 <p className="font-bold hover:text-white">
                     <Link href="mailto:mehwish.hasny@gmail.com" target="_blank">

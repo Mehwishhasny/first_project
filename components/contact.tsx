@@ -1,7 +1,7 @@
 export function ContactMe() {
     return (
             <div>
-                <h1 className="font-bold text-red-600 text-3xl flex justify-center items-center mb-8 space-x-8">Contact Me</h1>
+                <h1 className="font-bold text-red-600 text-3xl sm:text-2xl md:text-2xl flex justify-center items-center mb-8 space-x-8">Contact Me</h1>
            <form>
             <div>     
           <label htmlFor="name" className="block text-lg font-medium text-black mb-2">
