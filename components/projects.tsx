@@ -3,7 +3,7 @@ import Link from "next/link";
 export function Projects() {
   return (
     <div className="container mx-auto">
-      <h1 className="font-bold text-yellow-500 text-3xl sm:text-2xl flex justify-center items-center mb-14">
+      <h1 className="font-bold text-yellow-500 text-3xl sm:text-3xl flex justify-center items-center mb-14">
         Projects
       </h1>
     
