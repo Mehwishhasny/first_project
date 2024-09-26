@@ -7,7 +7,7 @@ export function Projects() {
         Projects
       </h1>
     
-      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 m-4">
+      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 m-4">
           <li className="hover:text-blue-500">
             <Link href="https://travel-pg.vercel.app/" target="_blank">
              Travel App
