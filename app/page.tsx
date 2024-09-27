@@ -53,15 +53,15 @@ export default function Home() {
 
         </div>
       </div>
-      <div id="about-me" className="m-20 p-10 flex justify-center items-center font-bold text-xl mb-2">
+      <div id="about-me" className="md:m-20 md:p-10 md:text-xl flex justify-center items-center font-bold mb-1">
         <AboutMe />
       </div>
 
-      <div id="projects" className="m-14 p-10 flex justify-center items-center font-bold text-xl mb-2">
+      <div id="projects" className="md:m-14 md:p-10 md:text-xl m-0 p-4 flex justify-center items-center font-bold mb-1">
         <Projects />
       </div>
      
-      <div id="contact-me" className="m-14 p-10 flex justify-center items-center font-bold text-xl">
+      <div id="contact-me" className="md:m-14 md:p-10 flex justify-center items-center font-bold md:text-xl mb-2">
         <ContactMe />
       </div>
 

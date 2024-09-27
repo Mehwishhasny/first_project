@@ -18,10 +18,23 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0; /* Ensure no default margin */
+  padding: 0; /* Ensure no default padding */
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+html, body {
+  margin: 0; /* Reset margins */
+  padding: 0; /* Reset padding */
+  width: 100%; /* Ensure full width */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+* {
+  box-sizing: border-box; /* Include padding and borders in the total width and height */
 }

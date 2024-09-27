@@ -2,12 +2,12 @@ import Link from "next/link";
 
 export function Projects() {
   return (
-    <div className="w-full mx-0 px-0">
+    <div className="w-full mx-2 px-2">
       <h1 className="font-bold text-yellow-500 text-3xl sm:text-3xl flex justify-center items-center mb-14">
         Projects
       </h1>
     
-      <ul className="grid grid-cols-2 text-sm sm:grid-cols-2 md:grid-cols-4 gap-4">
+      <ul className="grid grid-cols-2 text-lg font-bold sm:grid-cols-2 md:grid-cols-4 md:text-xl sm:text-xl gap-4">
           <li className="hover:text-blue-500">
             <Link href="https://travel-pg.vercel.app/" target="_blank">
              Travel App
